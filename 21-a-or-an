@@ -8,6 +8,6 @@ if(word.startsWithIgnoreCase(vowel))
 word='an '+word;
 }
 word='a '+word;
-}
+
 return word;
 }
