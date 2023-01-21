@@ -6,6 +6,7 @@ for(string vowel:vowelslist)
 {
 if(word.startsWithIgnoreCase(vowel))
 word='an '+word;
+return word;
 }
 word='a '+word;
 
