@@ -6,8 +6,8 @@ for(string vowel:vowelslist)
 {
 if(word.startsWithIgnoreCase(vowel))
 word='an '+word;
-else
-word='a'+word;
+}
+word='a '+word;
 }
 return word;
 }
