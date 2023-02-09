@@ -1,0 +1,25 @@
+public Boolean isPassed(Boolean passedExam, Boolean passedAssignments, Boolean passedProject) {
+    //code here
+
+    integer pass=0;
+    if(passedExam)
+    {
+        pass+=1;
+    }
+    if(passedAssignments)
+    {
+        pass+=1;
+    }
+    if(passedProject)
+    {
+        pass+=1;
+    }
+    if(pass>=2)
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}
