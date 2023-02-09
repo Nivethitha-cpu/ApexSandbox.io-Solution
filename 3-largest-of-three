@@ -7,5 +7,6 @@ public static Integer findLargest(Integer num1, Integer num2, Integer num3) {
     largest=num2;
     else 
     largest=num3;
+    return largest;
 
 }
