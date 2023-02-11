@@ -32,5 +32,8 @@ public Integer rockPaperScissors(String player1, String player2) {
             return 1;
         }
     }
+    else{
+        return 0;
+    }
 
 }
