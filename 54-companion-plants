@@ -1,27 +1,24 @@
 public Boolean companionPlants(String plant1, String plant2) {
+  
+
     //code here
-    if(plant1=='onion')
-    {
-        if(plant2=='lettuce'||plant2=='carrots'||plant2=='tomatoes')
-        {
-            return true;
-        }
-    }
-    else if(plant1=='lettuce'||plant1=='carrots'||plant1=='tomatoes')
-    {
-        if(plant2=='Onion')
-        {
-            return true;
-        }
-    }
-    else if((plant1=='lettuce'&& plant2=='cucumber') ||(plant2=='lettuce'&& plant1=='cucumber'))
-    {
-        return true;
-    }
-    else
-    {
-        return false;
-    }
-    
+
+    Map<String, String> compPlants = new Map<String,String>();
+
+    compPlants.put('onions', 'lettuce');
+
+    compPlants.put('carrots','onions');
+
+    compPlants.put('tomatoes','onions');
+
+    compPlants.put('cucumbers', 'lettuce');
+
+    return compPlants.get(plant1) == plant2 || compPlants.get(plant2) == plant1 ?     true:
+
+    false;
+
+}
+
+
         
 }
