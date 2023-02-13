@@ -1,6 +1,6 @@
 public Boolean companionPlants(String plant1, String plant2) {
     //code here
-    if((plant1=='onion') && (plant2=='lettuce'||plant2=='carrots'||plant2=='tomatoes'))
+    if(plant1=='onion' && plant2=='lettuce'||plant2=='carrots'||plant2=='tomatoes')
     {
     
             return true;
