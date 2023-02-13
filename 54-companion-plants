@@ -1,4 +1,4 @@
-public Boolean companionPlants(String plant1, String plant2) {}
+public Boolean companionPlants(String plant1, String plant2) {
     //code here
     if(plant1=='onion')
     {
@@ -22,6 +22,6 @@ public Boolean companionPlants(String plant1, String plant2) {}
     {
         return false;
     }
-    }
+    
         
 }
