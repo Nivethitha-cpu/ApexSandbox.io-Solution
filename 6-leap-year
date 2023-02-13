@@ -10,12 +10,13 @@ else if(math.mod(year,100))
         {
                 return true;
         }
-        else{
+        else
+        {
             return false;
         }
         
     }
-}
+
 else{
     return false;
 }
