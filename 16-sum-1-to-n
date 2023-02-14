@@ -1,0 +1,9 @@
+public Integer sumToN(Integer n) {
+    //code here
+    integer sum=0;
+    for(integer count=1;count<=n;count++)
+    {
+            sum+=1;
+    }
+    return sum;
+}
