@@ -4,9 +4,10 @@ public String formatName(String firstName, String lastName) {
 
  if(string.isempty(firstName))
     return lastName;
+
+if(string.isempty(firstName) && string.isempty(lastName)) return '';
 if(string.isempty(lastName))
     return firstName;
-if(string.isempty(firstName) && string.isempty(lastName)) return '';
     return lastName+', '+firstName;
 
 }
