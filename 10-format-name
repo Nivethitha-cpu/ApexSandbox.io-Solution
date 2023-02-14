@@ -3,19 +3,11 @@ public String formatName(String firstName, String lastName) {
 
   
 
-    if(firstname!= null && lastName!=null)
-    {
-        return lastName+', '+firstname;
-    }
-    else if (lastName==null)
-    {
-        return firstName;
-    }
-    else if (firstName== null)
-    {
-        return lastName;
-    }
-    else{
-        return ' ';
-    }
+    if(string.isempty(firstName))
+    return lastName;
+    else if(string.isempty(lastName))
+    return firstName;
+    else
+    return lastName+', '+firstName;
+
 }
