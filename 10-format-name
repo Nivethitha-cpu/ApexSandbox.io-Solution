@@ -1,5 +1,18 @@
 public String formatName(String firstName, String lastName) {
     //code here
 
-    return lastName+' '+firstname;
+    string formateName;
+
+    if(firstname!= null && lastName!=null)
+    {
+        return lastName+','+firstname;
+    }
+    else if (lastName==null)
+    {
+        return firstName;
+    }
+    else if (firstName== null)
+    {
+        return lastName;
+    }
 }
