@@ -4,7 +4,10 @@ public Boolean isPrime(Integer num) {
     {
         for(integer count=2;count<num;count++)
        {
-        math.mod(num,count)!=0?  return true: return false;
+         if(math.mod(num,count)!=0)
+         return true;
+         else
+         return false;
        }
       
     }
