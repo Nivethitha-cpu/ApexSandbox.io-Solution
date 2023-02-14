@@ -10,6 +10,6 @@ public String formatName(String firstName, String lastName) {
     else if(!string.isempty(firstName) && !string.isempty(lastName))
     return lastName+', '+firstName;
     else
-    return ' ';
+    return null;
 
 }
