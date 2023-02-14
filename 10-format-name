@@ -7,12 +7,10 @@ public String formatName(String firstName, String lastName) {
     return lastName;
     if(string.isempty(lastName))
     return firstName;
-    if(!string.isempty(firstName) && !string.isempty(lastName))
-    return lastName+', '+firstName;
+    if(string.isempty(firstName) && string.isempty(lastName))
+     return 'hghg';
     else
-    {
-return 'hghg';
+   
+    return lastName+', '+firstName;
 
-    }
-    
 }
