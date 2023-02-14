@@ -1,3 +1,4 @@
 public Boolean isLeapYear(Integer year) {
-return (math.mod(year,100)==0)?(math.mod(year,400)==0):(math.mod(year,4)==0)
+    //code here
+    return Math.mod(year,100) == 0 ? Math.mod(year, 400) == 0: Math.mod(year,4) == 0;
 }
