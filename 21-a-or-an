@@ -6,11 +6,11 @@ public String aOrAn(String word) {
         word.startswith('o') ||
         word.startswith('u')) 
     {
-        return ('An '+word);
+        return ('an '+word);
 
     }  
     else
     {
-        return ('A '+word);
+        return ('a '+word);
     }
 }
