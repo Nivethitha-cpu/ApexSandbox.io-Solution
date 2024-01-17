@@ -1,15 +1,16 @@
 public String aOrAn(String word) {
     //code here
+    if(word.startswith('a') or
+        word.startswith('e') or
+        word.startswith('i') or
+        word.startswith('o') or
+        word.startswith('u')) 
+    {
+return 'An';
 
-list<String>vowelslist=new list<string>{'a','e','i','o','u'};
-for(string vowel:vowelslist)
-{
-if(word.startsWithIgnoreCase(vowel))
-{
-word='an '+word;
-return word;
-}
-}
-word='a '+word;
-return word;
+    }  
+    else
+    {
+        return 'A'
+    }
 }
