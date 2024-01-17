@@ -14,4 +14,5 @@ public Boolean ascendingOrder(Integer a, Integer b, Integer c) {
 
     boolean isAscending;
     isAscending=(c>=b&&c>=a?(b>=a?true:false):false);
+    return isAscending;
 }
