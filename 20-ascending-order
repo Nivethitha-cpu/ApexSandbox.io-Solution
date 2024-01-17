@@ -1,6 +1,6 @@
 public Boolean ascendingOrder(Integer a, Integer b, Integer c) {
     //code here
-    if(a<=b&&a<=c)
+   /* if(a<=b&&a<=c)
     {
        if(b<=c) 
        return true;
@@ -10,8 +10,8 @@ public Boolean ascendingOrder(Integer a, Integer b, Integer c) {
     else
     {
         return false;
-    }
+    }*/
 
-   /* boolean isAscending;
-    isAscending=(c>b&&c>a?(b>a?true:false):false);*/
+    boolean isAscending;
+    isAscending=(c>=b&&c>=a?(b>=a?true:false):false);
 }
