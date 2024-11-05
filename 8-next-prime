@@ -1,0 +1,26 @@
+public Integer nextPrime(Integer num) {
+    //code here
+
+    boolean nextPrime=false; 
+    integer ans;
+    while(!nextPrime)
+    {
+        num++;
+        for(integer j=2;j<=num;j++)
+        {
+            if(Math.mod(num,j)==0)
+            {
+                if(j==num)
+                {
+					 nextPrime=true;
+                	ans=j;                    
+                }
+                else
+                {
+                    break;
+                }
+             } 
+        }
+    }
+    return ans;
+}
