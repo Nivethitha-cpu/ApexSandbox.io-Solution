@@ -1,0 +1,14 @@
+public Integer fibonacci(Integer n) {
+    //code here
+
+    
+    integer index=0;
+    list<integer> intList=new list<integer>{1,1};
+    for(Integer i=3;i<=n;i++)
+    {
+     integer temp=index+1;  
+     intList.add(intList[index]+intList[temp]);
+     index=temp;     
+    }
+    return intList[n-1];
+}
