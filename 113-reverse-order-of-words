@@ -2,9 +2,9 @@ public String reverseWordsInASentence(String sentence){
     //your flawless code here
     if(sentence!=null)
     {
-        list<string> sentenceList=new list<string>();
-        list<string> sentenceList2=new list<string>();
-        sentenceList=sentence.split(' ');
+        list<string> sentenceList=sentence.split(' ');
+        list<string> reversedList=new list<string>();
+        
         for(integer i=sentenceList.size()-1;i>=0;i--)
         {
             sentenceList2.add(sentenceList[i]);
