@@ -10,7 +10,7 @@ public String reverseWordsInASentence(String sentence){
             sentenceList2.add(sentenceList[i]);
         }
 
-        return string.join(sentenceList2,' ');
+        return string.join(reversedList,' ');
     }
     else
     {
