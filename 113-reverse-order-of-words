@@ -1,13 +1,20 @@
 public String reverseWordsInASentence(String sentence){
     //your flawless code here
-
-   list<string> sentenceList=new list<string>();
-    list<string> sentenceList2=new list<string>();
-    sentenceList=sentence.split(' ');
-    for(integer i=sentenceList.size()-1;i>=0;i--)
+    if(sentence!=null)
     {
-        sentenceList2.add(sentenceList[i]);
-    }
+        list<string> sentenceList=new list<string>();
+        list<string> sentenceList2=new list<string>();
+        sentenceList=sentence.split(' ');
+        for(integer i=sentenceList.size()-1;i>=0;i--)
+        {
+            sentenceList2.add(sentenceList[i]);
+        }
 
-    return string.join(sentenceList2,' ');
+        return string.join(sentenceList2,' ');
+    }
+    else
+    {
+        return null;
+    }
+   
 }
